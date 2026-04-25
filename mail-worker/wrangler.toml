@@ -6,14 +6,14 @@ keep_vars = true
 [observability]
 enabled = true
 
-[[d1_databases]]
-binding = "DB"			#d1数据库绑定名默认不可修改
-database_name = "dev"		#d1数据库名字
-database_id = "ec6033eb-dbd9-40ae-afba-9f9b44a366c9"		#d1数据库id
+#[[d1_databases]]
+#binding = "DB"			#d1数据库绑定名默认不可修改
+#database_name = "dev"		#d1数据库名字
+#database_id = "ec6033eb-dbd9-40ae-afba-9f9b44a366c9"		#d1数据库id
 
-[[kv_namespaces]]
-binding = "KV"			#kv绑定名默认不可修改
-id = "45a4d9fb26e7456ebc0b3cf4dc63e9d8"					#kv数据库id
+#[[kv_namespaces]]
+#binding = "KV"			#kv绑定名默认不可修改
+#id = "45a4d9fb26e7456ebc0b3cf4dc63e9d8"					#kv数据库id
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
